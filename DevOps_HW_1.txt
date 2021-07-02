@@ -1,12 +1,12 @@
 "OSI Model" --> "Open System Interconnection" --> 7 Layers
 
-7.Physical Layer
+1.Physical Layer
 		-->transmission & reception of unstructured raw data
 		-->between a device & a physical transmission medium
 	-->transmits : bit to signal/frequency
 	-->purpose : transmission
 	-->device : connectors, hub, modem, repeater
-6.Data Link Layer
+2.Data Link Layer
 		-->provides nopde to node data transfer , a link between 2 directly connected nodes
 		-->two sublayers: i)MAC
 						  ii)LLC
@@ -14,7 +14,7 @@
 	-->purpose : i)MAC-->provides flow control and multiplexing
 				ii)LLC-->provides flow and error control and identifies live protocols
 	-->device : switch, router, modem, ap
-5.Network Layer
+3.Network Layer
 		-->transmits packets between 2 nodes connected in different networks
 		-->A network is a medium to which many can be connected
 	-->transmits : packet
@@ -26,20 +26,20 @@
 	-->transmits : Segment(TCP)/Datagram(UDP)
 	-->purpose : reliability
 	-->device : firewall
-3.Session Layer
+5.Session Layer
 		-->controls the connection between computers, local and remote
 		-->non-existent in modern TCP/IP system
 	-->transmits : message
 	-->purpose : authentication/authorization
 	-->device : gateway
-2.Presentation Layer
+6.Presentation Layer
 		-->establishes context between application layer entities
 		-->provides mapping between them
 		-->basically, formats/translates data for the application layer based on the syntax the application accepts.
 	-->transmits : messaage
 	-->purpose : formatting, encrypting, compressing
 	-->device : it is a protocol
-1.Application Layer
+7.Application Layer
 		-->in this layer both the end user and the application layer interact directly with the software application
 	-->transmits : message
 	-->purpose : Interface(API)
