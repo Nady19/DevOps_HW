@@ -1,9 +1,9 @@
-docker build  -t class1 .  "***class1 is the name of the image and by" ." we assign that the dockerfile is somewhere in this folder***"
+`docker build  -t class1 .`  "***class1 is the name of the image and by" ." we assign that the dockerfile is somewhere in this folder***"
 
-docker run class1
+`docker run class1`
 
-go into another terminal, bash for mine
+go into another terminal, bash for mine, to see that the image is running
 
-sudo docker ps
+`sudo docker ps`
 
-sudo docker exec -it "**first two digit of container id**" sh
+`sudo docker exec -it "**first two digit of container id**" sh`
