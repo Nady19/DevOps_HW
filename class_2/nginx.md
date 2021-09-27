@@ -2,9 +2,9 @@ First the dockerfile should look like this :
 
  `FROM ubuntu`
  
- `RUN apt update` 
+ `RUN sudo apt update` 
  
- `RUN apt install nginx -y`
+ `RUN sudo apt install nginx -y`
  
  `COPY ./index.html /var/www/html/`  
  
